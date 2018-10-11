@@ -1,0 +1,140 @@
+@CHARSET "UTF-8";
+#page {
+   position: absolute;
+   width: 100%;
+   background-color: white;
+   border: 0px;
+   font-family: monospace;
+   min-height: 350px;
+   min-width: 100%;
+   text-align: -webkit-center;
+}
+#h1{
+	position: relative;
+	height: 150px;
+	background-color: #d2d2d2;
+}
+#h61{
+	position: absolute;
+	right: 90px;
+	bottom: 110px;
+	color: black;
+}
+
+#header1 {
+	height: 50px;
+	color: white;
+	text-align : center;
+	background-color: #000000c9;
+}
+ol{
+  list-style:none;
+  text-align:center;
+  padding:10px 0;
+}
+ol li{
+  display:inline;
+  padding:0 10px;
+  letter-spacing: 15px;
+}
+ol li a{
+  text-decoration : none; color:white;
+}
+ol li a:hover{
+  text-decoration : underline;
+}
+
+#main {
+	width: 100%;
+	float: inherit;
+	background-image: url("../images/back.PNG");
+	background-size: cover;
+}
+#main h1, h2, h3, h4{
+	color: navy;
+}
+#header1 h3 {
+	color: white;
+}
+#divH {
+	height: 350px;
+	width : 300px;
+	background-color: #d2d2d2;
+	text-align: -webkit-center;
+}
+
+#divR {
+	height: 500px;
+	width : 500px;
+	background-color: #d2d2d2;
+	text-align: -webkit-center;
+	
+}
+#A{
+	width : 700px;
+	background-color: #d2d2d2;
+	text-align: -webkit-center;
+}
+header{
+   position: relative;
+   height: 85px;
+   text-shadow:-3px -3px 3px #cac8c8;
+   color : black;
+   text-align: -webkit-center;
+}
+header h2{
+   text-align: center;
+}
+table{
+   text-align: center;
+   background-color: #ececec;
+   border : 1px dotted black;
+   text-align: -webkit-center;
+}
+table td{
+   border : 1px dotted black;
+}
+footer{
+   height: 100%;
+   text-align: -webkit-center;
+}
+
+
+#footer1 {
+	clear: both;
+	height : 110px;
+	background-color: #000000c9;
+	color: white;
+}
+
+#header1, #main, #footer1 {
+	border: solid 1px white;
+}
+
+@media screen and (max-width: 1000px) {
+	#page {
+		width: 94%;
+	}
+	#main {
+		width: 65%;
+	}
+	
+}
+
+@media screen and (max-width: 700px) {
+	#main {
+		width: auto;
+		float: none;
+	}
+	
+}
+
+@media screen and (max-width: 480px) {
+	#header1 {
+		height: auto;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	
+}
